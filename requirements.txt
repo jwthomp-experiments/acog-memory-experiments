@@ -1,0 +1,9 @@
+--extra-index-url=https://download.pytorch.org/whl/nightly/cpu
+torch
+
+transformers
+accelerate
+bitsandbytes
+
+sentence-transformers
+pymilvus
