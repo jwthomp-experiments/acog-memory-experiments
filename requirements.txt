@@ -6,4 +6,5 @@ accelerate
 bitsandbytes
 
 sentence-transformers
-pymilvus
+qdrant-client
+#pymilvus
