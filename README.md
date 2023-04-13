@@ -7,3 +7,5 @@ You can obtain the unfiltered model from here:
 
 You will need to convert it per the instructions found here:
 https://github.com/nomic-ai/pyllamacpp#gpt4all
+
+Place the model in the `models/` folder and give it the name `gpt4all-lora-unfiltered-quantized-converted.bin`
