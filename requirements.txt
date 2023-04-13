@@ -8,3 +8,4 @@ bitsandbytes
 sentence-transformers
 qdrant-client
 #pymilvus
+pyllamacpp
