@@ -1,3 +1,12 @@
 volumes
 .venv
 .envrc
+
+
+models/**
+!models/README.md
+
+## Python things
+__pycache__/
+*.py[cod]
+
