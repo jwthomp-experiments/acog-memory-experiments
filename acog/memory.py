@@ -60,7 +60,6 @@ def get_sentence_embeddings(input):
     return embeddings
 
 def store_embeddings(embeddings, inputs):
-    print(f" len emb: {len(embeddings)} len inputs: {len(inputs)}")
     QDRANT_CLIENT.upsert(
         collection_name = 'sentences',
         points = [
