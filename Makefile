@@ -8,7 +8,7 @@ install-python: .venv deps  # Install Python Dependencies
 	test -d .venv || virtualenv .venv
 
 
-.venv/.touchfile-requirements: requirements.txt
+.venv/.touchfile-requirements: .venv requirements.txt
 	. .venv/bin/activate; pip install -r requirements.txt
 	touch $@
 
@@ -25,7 +25,7 @@ infra:  # Install and run required infrastructure
 
 .PHONY: run
 run:  # Run application
-	. .venv/bin/activate; exec python main.py
+	. .venv/bin/activate; python main.py
 
 .PHONY: clean
 clean:  # Clean up dependencies
